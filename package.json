@@ -8,7 +8,8 @@
     "fs": "^0.0.1-security",
     "handlebars": "^4.0.11",
     "hbs": "^4.0.1",
-    "nodemon": "^1.17.2"
+    "nodemon": "^1.17.2",
+    "serve-favicon": "^2.4.5"
   },
   "devDependencies": {},
   "scripts": {

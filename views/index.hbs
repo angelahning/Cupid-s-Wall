@@ -7,7 +7,7 @@
     <div id="wrapper">
       <div id="body">
         <div id="title-part">
-          <img src="logo.png" style="height: 80%"/>
+          <img src="logo.png" style="height: 85%"/>
         </div>
         <div id="tag-part">
           <div id="tag-part-left">
@@ -15,9 +15,9 @@
               <div class="single-tag">{{this}}</div>
             {{/each}}
           </div>
-          <!--div id="tag-part-right">
-              <button class="apply-button">Apply</button>
-          </div-->
+          <div id="tag-part-right">
+              <a href="/addanote" class="apply-button">Add a Note</a>
+          </div>
         </div>
         <div id="tip-part">
           {{#each tipList}}
@@ -29,6 +29,7 @@
                 {{this.content}}
               </div>
               <div id="tipCard-tag" class="tip-tag">
+                {{this.tag}}
               </div>
             </div>
           {{/each}}

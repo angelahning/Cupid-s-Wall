@@ -20,7 +20,7 @@ body{
 #wrapper{
   height: 100%;
   width: 65vw;
-  margin: 5vh auto;
+  margin: 10vh auto;
   display: flex;
   flex-direction: column;
 }
@@ -64,7 +64,7 @@ body{
 
 .apply-button{
   height: 2em;
-  width: 5em;
+  width: 8em;
   font-size: 20px;
   background: linear-gradient(#33bbff, #80d4ff);
   border-radius: 10px;
@@ -73,6 +73,10 @@ body{
   -moz-transition:-moz-transform .10s linear;
   -o-transition:-o-transform .10s linear;
   -webkit-transition:-webkit-transform .10s linear;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .apply-button:hover{
@@ -107,6 +111,7 @@ body{
   justify-content: space-around;
   align-items: flex-end;
   padding: 20px;
+  margin-top: 20px;
 }
 
 @font-face {
@@ -117,8 +122,9 @@ body{
 .tip-card{
   height: 14em;
   width: 14em;
-  margin: 20px;
-  background: #fcc;
+  margin: 18px;
+  margin-top: 25px;
+  background: #fc82b9;
   color: white;
   text-align: center;
   box-shadow: 5px 5px 10px #888;
@@ -130,6 +136,7 @@ body{
   -moz-transition:-moz-transform .30s linear;
   -o-transition:-o-transform .30s linear;
   -webkit-transition:-webkit-transform .30s linear;
+  padding: 10px;
 }
 
 .tip-card:nth-of-type(even){
@@ -150,6 +157,12 @@ body{
   -moz-transform:rotate(9deg);
 }
 
+.tip-card:nth-of-type(6n){
+  -o-transform:rotate(-2deg);
+  -webkit-transform:rotate(-2deg);
+  -moz-transform:rotate(-2deg);
+}
+
 .tip-card:hover{
   -o-transform:rotate(6deg);
   -webkit-transform:rotate(6deg);
@@ -161,14 +174,20 @@ body{
 }
 
 .tip-title{
+  height: 10%;
   font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .tip-content{
-  font-size: 15px;
+  height: 75%;
+  font-size: 16px;
   font-family: Kalam, cursive;
+  margin-bottom: 10px;
 }
 
 .tip-tag{
-
+  height: 10%;
+  font-size: 15px;
 }
