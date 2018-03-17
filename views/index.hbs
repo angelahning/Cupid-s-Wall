@@ -9,8 +9,15 @@
         <div id="title-part">
           <img src="logo.png" style="height: 80%"/>
         </div>
-        <div id="control-part">
-          Controls
+        <div id="tag-part">
+          <div id="tag-part-left">
+            {{#each tagList}}
+              <div class="single-tag">{{this}}</div>
+            {{/each}}
+          </div>
+          <!--div id="tag-part-right">
+              <button class="apply-button">Apply</button>
+          </div-->
         </div>
         <div id="tip-part">
           {{#each tipList}}

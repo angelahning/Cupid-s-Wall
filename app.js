@@ -11,6 +11,7 @@ app.use(express.static(path.join(__dirname, '/assets')));
 
 app.get('/', (req, res) => {
   var content = {
+    tagList: ['Story', 'Date', 'Quote', 'Flirt'],
     tipList: [
       {
         title: 'Title #1',
