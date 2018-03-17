@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="body">
+        <div id="title-part">
+          <img src="logo.png" style="height: 80%"/>
+        </div>
+        <div id="control-part">
+          Controls
+        </div>
+        <div id="tip-part">
+          {{#each tipList}}
+            <div id="{{this.id}}" class="tip-card" style="{{this.style}}">
+              <div id="tipCard-title" class="tip-title">
+                {{this.title}}
+              </div>
+              <div id="tipCard-content" class="tip-content">
+                {{this.content}}
+              </div>
+              <div id="tipCard-tag" class="tip-tag">
+              </div>
+            </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
