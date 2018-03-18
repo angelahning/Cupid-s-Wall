@@ -181,10 +181,31 @@ body{
 }
 
 .tip-content{
-  height: 75%;
+  height: 65%;
   font-size: 16px;
   font-family: Kalam, cursive;
   margin-bottom: 10px;
+}
+
+.tip-comment{
+  height: 10%;
+  font-size: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.comment-button{
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.comment-button:hover{
+  cursor: pointer;
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
 }
 
 .tip-tag{
