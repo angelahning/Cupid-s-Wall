@@ -191,3 +191,49 @@ body{
   height: 10%;
   font-size: 15px;
 }
+
+.form{
+  width: 25em;
+  height: 25em;
+  margin: 40px auto;
+  background: #fc82b9;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 2px #888;
+}
+
+.input-field{
+  width: 80%;
+  height: 2em;
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.input-content{
+  height: 10em
+}
+
+.ghost-button{
+  height: 2em;
+  font-size: 20px;
+  width: 83%;
+  background: linear-gradient(#33bbff, #80d4ff);
+  margin: 20px auto;
+  color: white;
+  box-shadow: 1.5px 1.5px 2px #888;
+  -moz-transition:-moz-transform .10s linear;
+  -o-transition:-o-transform .10s linear;
+  -webkit-transition:-webkit-transform .10s linear;
+}
+
+.ghost-button:hover{
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+textarea{
+  resize: none;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="body">
+        <div id="title-part" >
+          <img src="logo.png" style="height: 85%"/>
+        </div>
+        <fieldset style="border: none;">
+          <form action='/addanote' method="post" class="form">
+            <input name="title" type="text" placeholder="Enter Title" required class="input-field" style="margin-top: 30px;" maxlength="20">
+            <textarea wrap="soft" name="content" type="text" placeholder="Enter Content" required class=" input-content input-field" maxlength="300"></textarea>
+            <input type="submit" class="ghost-button" value="Submit"  required>
+          </form>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
