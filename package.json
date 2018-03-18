@@ -1,0 +1,29 @@
+{
+  "name": "unsinglehack",
+  "version": "1.0.0",
+  "description": "--- ## Unsingle Hack",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.0.11",
+    "hbs": "^4.0.1",
+    "nodemon": "^1.17.2",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelaNing97/unsingle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelaNing97/unsingle/issues"
+  },
+  "homepage": "https://github.com/AngelaNing97/unsingle#readme"
+}
