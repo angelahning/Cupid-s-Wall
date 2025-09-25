@@ -35,7 +35,7 @@ jobs:
           
           # === TIMING CONFIGURATION ===
           # Mark PRs as stale after 23 days of inactivity
-          days-before-stale: 23
+          days-before-stale: 0
           # Close PRs 7 days after being marked stale (total 30 days)
           days-before-close: 7
           
